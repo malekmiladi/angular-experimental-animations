@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --lighter-gray: #D4D4D4;
+    --light-gray: #656464;
+    --dark-gray: #2b2a2a;
+    --darker-gray: #181717;
+    --dark-red: #8d0000;
+}
+
+html {
+    background-color: var(--darker-gray);
+}

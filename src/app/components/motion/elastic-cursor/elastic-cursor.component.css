@@ -1,0 +1,11 @@
+.circle {
+    --circle-diameter: 40px;
+    position: fixed;
+    height: var(--circle-diameter);
+    width: var(--circle-diameter);
+    border: 1px solid white;
+    border-radius: 100%;
+    top: calc(var(--circle-diameter) / 2 * -1);
+    left: calc(var(--circle-diameter) / 2 * -1);
+    pointer-events: none;
+}
