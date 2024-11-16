@@ -1,4 +1,4 @@
-import { Point } from "../../../core/utils/point";
+import { Point } from "../../../core/utils/math/point";
 
 export enum Shape {
     CIRCLE,
